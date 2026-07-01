@@ -1,5 +1,7 @@
 # AI Video Pipeline
 
+[中文说明](README.zh-CN.md)
+
 A file-driven workflow for turning source material into short-form knowledge videos with agent handoff, topic gates, script review, visual QA, and publish-ready packaging.
 
 This project is designed for Codex, Claude Code, and other coding agents, but it is not tied to any single agent runtime. Agents coordinate through plain files such as `state.json`, `process/*.md`, and `agent-pack/*`.
